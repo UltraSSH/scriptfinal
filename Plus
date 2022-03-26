@@ -144,7 +144,6 @@ clear
 wget https://raw.githubusercontent.com/UltraSSH/oracledoorsopen/main/oracleop && chmod 777 oracleop &&./oracleop
 wget https://raw.githubusercontent.com/UltraSSH/journaldremove/main/journalremove && chmod 777 journalremove &&./journalremove
 wget https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/master/senharoot.sh && chmod 777 senharoot.sh && ./senharoot.sh
-wget https://sshplus.xyz/scripts/utilitarios/syncpainel/inst && chmod 777 inst &&./inst
 echo ""
 cd $HOME
 echo -e "        \033[1;33m • \033[1;32mINSTALACAO CONCLUIDA\033[1;33m • \033[0m"
