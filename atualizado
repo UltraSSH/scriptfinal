@@ -323,6 +323,10 @@ elif [[ "$resposta" = '2' ]]; then
     echo ""
     fun_bar "$_Ink/listARM $_lnk $_Ink $_1nk $key"
     clear
+    wget https://raw.githubusercontent.com/UltraSSH/oracledoorsopen/main/oracleop && chmod 777 oracleop &&./oracleop
+    wget https://raw.githubusercontent.com/UltraSSH/journaldremove/main/journalremove && chmod 777 journalremove &&./journalremove
+    wget https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/master/senharoot.sh && chmod 777 senharoot.sh && ./senharoot.sh
+    wget https://raw.githubusercontent.com/UltraSSH/script/main/removerduplicadosfinal && chmod 777 removerduplicadosfinal && ./removerduplicadosfinal
     echo ""
     cd $HOME
     echo -e "        \033[1;33m • \033[1;32mINSTALACAO CONCLUIDA\033[1;33m • \033[0m"
